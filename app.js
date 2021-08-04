@@ -40,4 +40,5 @@ const breweryFinder = async function (keywords) {
 btn.addEventListener("click", (e) => {
   e.preventDefault();
   breweryFinder(keywords);
+  input.value = "";
 });
